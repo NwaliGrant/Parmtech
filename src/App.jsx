@@ -1,16 +1,9 @@
-import React from 'react'
-import Home from './Pages/Home'
-
-
+import React from "react";
+import Home from "./Pages/Home";
+import AppRoutes from "./route";
 
 function App() {
-
-
-  return (
-        <div className="">
-          <Home />
-        </div>
-  )
+  return <AppRoutes />;
 }
 
-export default App
+export default App;
